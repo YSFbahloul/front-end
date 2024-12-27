@@ -10,4 +10,4 @@ RUN chmod -R 777 /app
 
 COPY ./ ./
 
-CMD ["npm", "start"]
+CMD ["npx", "ng", "serve", "--host", "0.0.0.0"]
